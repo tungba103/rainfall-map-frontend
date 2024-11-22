@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transparent-base {
+  @apply bg-white bg-opacity-60;
+}
+
+.card-title {
+  @apply text-base font-bold;
+}
+
+.card-content {
+  @apply text-sm;
+}
+
+.ptable-row {
+
+}
+
+.ptable-row-active{
+  @apply text-green-800;
+}
+
+.ptable-row-inactive {
+  @apply bg-red-100 text-red-800;
+}
